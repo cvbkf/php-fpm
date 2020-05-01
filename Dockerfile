@@ -60,6 +60,7 @@ RUN apt-get update && apt-get upgrade -y \
     && pecl install redis && docker-php-ext-enable redis \
     && yes '' | pecl install imagick && docker-php-ext-enable imagick \
     && docker-php-source delete \
+	&& pear install net_smtp mail mail_mime \
     && apt-get remove -y g++ wget \
     && apt-get autoremove --purge -y && apt-get autoclean -y && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* \
