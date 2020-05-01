@@ -2,4 +2,4 @@
 
 Docker container to install and run [PHP-FPM](https://php-fpm.org/).
 
-from nanoninja/php-fpm
+forked from nanoninja/php-fpm
