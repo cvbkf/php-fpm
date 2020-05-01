@@ -26,6 +26,9 @@ RUN apt-get update && apt-get upgrade -y \
     libxslt1-dev \
     libzip-dev \
     memcached \
+	python \
+	iputils-ping \
+	fping \
     wget \
     unzip \
     zlib1g-dev \
@@ -40,9 +43,6 @@ RUN apt-get update && apt-get upgrade -y \
     pdo_mysql \
     pdo_pgsql \
     pgsql \
-	python \
-	iputils-ping \
-	fping \
     soap \
     sockets \
     xmlrpc \
