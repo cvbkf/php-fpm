@@ -40,6 +40,9 @@ RUN apt-get update && apt-get upgrade -y \
     pdo_mysql \
     pdo_pgsql \
     pgsql \
+	python \
+	iputils-ping \
+	fping \
     soap \
     sockets \
     xmlrpc \
